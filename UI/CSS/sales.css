@@ -1,0 +1,66 @@
+#header {
+    background-image:url(../img/heady.jpg); 
+ 	margin-top: 0px;
+ 	margin-bottom: 0px;
+ 	width: 1490px;
+ 	padding: 20px;
+ 	height:250px;
+    color: rgb(255, 145, 0);
+    font-size: 50px;
+  	text-align:center;
+    padding:7px;         
+}
+#search {
+    text-align: center;
+    font-size: 22px;
+    font-family: fantasy;
+
+}
+#nav {
+    line-height:50px;
+    background-color:rgb(255, 145, 0);
+    color:  rgb(255, 145, 0);
+    height:120px;
+    width:15%;
+    float:right;
+    font-family: Fantasy;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 190px;
+}
+
+#contentmain {
+    overflow: hidden;
+    margin: 5px;
+    padding: 3px;
+    font-family: fantasy;
+    font-size: 30px;
+
+  }
+
+.sales-records {float: center; width: 95%; height: 500%; border-top: 1px solid #C3C3C3; border-right: 1px solid #C3C3C3;}
+.sales-records th {background: #F0F0F0;}
+.sales-records th, .sales-records td {border-bottom: 1px solid #C3C3C3; border-left: 1px solid #C3C3C3; padding: 3px;}
+.sales-records .date { font-size: 90%; white-space: nowrap;}
+.sales-records .item {width: 15%}
+.sales-records .qprice {width: 20%;}
+.sales-records .quantity {width: 10%;}
+.sales-records .quantity input {width: 30px;}
+.sales-records .tprice {width: 20%;}
+.sales-records .price {width: 25%;}
+.sales-records tr.totals {font-weight: bold;}
+.sales-records tr.totals a {font-weight: normal;}
+.sales-records .quantity-span {text-align: right;}
+.records {float:left;margin:20px 0; font-weight: bold;}
+.signout-button {float: right; margin: 20px 0; font-weight: bold;}
+
+
+#footer {
+    background-color:rgb(28, 38, 53);
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:7px; 
+}
+
+

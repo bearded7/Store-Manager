@@ -2,7 +2,7 @@ body {
   overflow: hidden;
   margin: 0;
   padding: 0;
-  background: url(background.jpg);
+  background: url(../img/background.jpg);
   background-size: cover;
   font-family: fantasy;
   height: 100vh;

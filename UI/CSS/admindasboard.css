@@ -1,0 +1,63 @@
+#header {
+    background-image:url(../img/heady.jpg); 
+ 	margin-top: 0px;
+ 	margin-bottom: 0px;
+ 	width: 1490px;
+ 	padding: 20px;
+ 	height:250px;
+    color: rgb(255, 145, 0);
+    font-size: 50px;
+  	text-align:center;
+    padding:7px;         
+}
+#search {
+    text-align: center;
+    font-size: 22px;
+    font-family: fantasy;
+
+}
+#nav {
+    line-height:50px;
+    background-color:rgb(255, 145, 0);
+    color:  rgb(255, 145, 0);
+    height:auto;
+    width:15%;
+    float:right;
+    font-family: Fantasy;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 190px;
+}
+
+#contentmain {
+    overflow: hidden;
+    margin: 5px;
+    padding: 3px;
+    font-family: fantasy;
+    font-size: 30px;
+
+  }
+
+.dashboard {float: left; width: 40%; height: 500%; border-top: 1px solid #C3C3C3; border-right: 1px solid #C3C3C3;}
+.dashboard th {background: #F0F0F0;}
+.dashboard th, .dashboard td {border-bottom: 1px solid #C3C3C3; border-left: 1px solid #C3C3C3; padding: 3px;}
+.dashboard .account {text-align: center; line-height: 20px; width: 43%; font-size: 90%; white-space: nowrap;}
+.dashboard .stoc {text-align: center; line-height: 20px; width: 45%; font-size: 90%; white-space: nowrap;}
+.board {float: right; margin-right: 50px; width: 40%; height: 500%; border-top: 1px solid #C3C3C3; border-right: 1px solid #C3C3C3;}
+.board th {background: #F0F0F0;}
+.board th, .board td {border-bottom: 1px solid #C3C3C3; border-left: 1px solid #C3C3C3; padding: 3px;}
+.board .account {text-align: center; line-height: 20px; width: 43%; font-size: 90%; white-space: nowrap;}
+.board .stoc {text-align: center; line-height: 20px; width: 45%; font-size: 90%; white-space: nowrap;}
+.records {float: left; margin: 20px 0; font-weight: bold;}
+.signout-button {float: right; margin: 20px 0; font-weight: bold;}
+
+
+#footer {
+    background-color:rgb(28, 38, 53);
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:7px; 
+}
+
+

@@ -6,7 +6,8 @@
  	padding: 20px;
  	height:250px;
     color: rgb(255, 145, 0);
-    font-size: 50px;
+    font-family: 'Papyrus' ,'fantasy';
+    font-size: 40px;
   	text-align:center;
     padding:7px;         
 }
@@ -34,7 +35,7 @@
     margin: 5px;
     padding: 3px;
     font-family: 'Papyrus' ,'fantasy';
-    font-size: 30px;
+    font-size: 23px;
 
   }
 

@@ -1,6 +1,6 @@
 
 #header {
-    background-image:url(heady.jpg); 
+    background-image:url(../img/heady.jpg); 
  	margin-top: 0px;
  	margin-bottom: 0px;
  	width: 1490px;
@@ -11,10 +11,15 @@
   	text-align:center;
     padding:7px;         
 }
+#search {
+    text-align: center;
+    font-size: 22px;
+    font-family: fantasy;
 
+}
 #nav {
-    line-height:80px;
-    background-color:white;
+    line-height:50px;
+    background-color:rgb(255, 145, 0);
     color:  rgb(255, 145, 0);
     height:auto;
     width:15%;
@@ -22,6 +27,7 @@
     font-family: Fantasy;
     font-size: 25px;
     font-weight: bold;
+    margin-top: 190px;
 }
 
 #contentmain {

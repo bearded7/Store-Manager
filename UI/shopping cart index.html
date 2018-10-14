@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <head>
-<title>
-</title>
-<link rel="stylesheet" type="text/css" href="shopping cart.css" />
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title> Shopping Cart</title>
+<link rel="stylesheet" type="text/css" href="CSS/shopping cart.css" />
 </head>
 <body>
 
@@ -12,17 +13,21 @@
 <h1>Iwotokijikiji Store Manager UI</h1>
 </div>
 
+<div id= "search"> Search Store Inventory
+    <input type="text" placeholder="search"> &nbsp;&nbsp;<input type="submit" name="submit" value="Search"/>
+</div>
+
 <div id="nav">
-<a href="shopping cart index.html"><br>Shopping Cart</a>
-<a href="individual sales records.html"><br>Individual sale records</a>
-<a href="">Store Administration</a>
-<a href="inventory.html"><br>Store Inventory</a
-</div>
-</div>
+    <a href="shopping cart index.html">Shopping Cart</a><br>
+    <a href="store sales.html">sales</a><br>
+    <a href="dashboard.html">Store Administration</a><br>
+    <a href="inventory.html">Store Inventory</a> <br>
+    </div>
+    </div>
 
 
 <div id = "contentmain">
-<h1 >Shopping Cart</h1>
+<h1 >Shopping Cart <img src="img/cart.jpeg" width="50px" height="50px"></h1>
 
   <table cellspacing="0" class="shopping-cart">
     <thead>
@@ -36,22 +41,22 @@
     </thead>
     <tbody>
       <tr> 
-        <td class="link"><label> remove</label></td>
+        <td class="link"><label> <a href="{#product.url}">remove</a></label></td>
         <td class="product">
-          <div class="product-img"><a href="{#product.url}"></a></div>
-          <div class="product-name"> Rice
-            <a href="{#product.url}"></a>
+          <div class="product-img"><a href="{#product.url}"><img src="img/rice.jpg"> </a></div>
+          <div class="product-name"> 
+            <a href="{#product.url}"> Rice</a>
            
               <br />
           </div>
         </td>
-        <td class="qprice"> 10,000
+        <td class="qprice"> 10,000 Ugx
           
         </td>
         <td class="quantity"> 3 KGS
           
         </td>
-        <td class="tprice"></td> 
+        <td class="tprice"> 30,000 Ugx</td> 
       </tr>
    
 
@@ -59,64 +64,64 @@
       
 
             <tr> 
-              <td class="link"><label> remove</label></td>
+              <td class="link"><label> <a href="{#product.url}">remove</a></label></td>
               <td class="product">
-                <div class="product-img"><a href="{#product.url}"></a></div>
-                <div class="product-name"> T-Shirt
-                  <a href="{#product.url}"></a>
+                <div class="product-img"><a href="{#product.url}"><img src="img/tshirt.jpg"></a></div>
+                <div class="product-name">
+                  <a href="{#product.url}">T-Shirt</a>
                  
                     <br />
                 </div>
               </td>
-              <td class="price">
+              <td class="qprice">12,000 Ugx
                 
               </td>
-              <td class="quantity">
+              <td class="quantity"> 3
                 
               </td>
-              <td class="price"></td>
+              <td class="tprice"> 36,000 Ugx </td>
             </tr>
          
 
             
                 <tr> 
-                  <td class="link"><label> remove</label></td>
+                  <td class="link"><label> <a href="{#product.url}">remove</a></label></td>
                   <td class="product">
-                    <div class="product-img"><a href="{#product.url}"></a></div>
-                    <div class="product-name"> Mocassins
-                      <a href="{#product.url}"></a>
+                    <div class="product-img"><a href="{#product.url}"><img src="img/mocaz.jpg"></a></div>
+                    <div class="product-name"> 
+                      <a href="{#product.url}">Mocassins</a>
                      
                         <br />
                     </div>
                   </td>
-                  <td class="price">
+                  <td class="qprice"> 80,000 Ugx
                     
                   </td>
-                  <td class="quantity">
+                  <td class="quantity"> 1
                     
                   </td>
-                  <td class="price"></td>
+                  <td class="tprice"> 80,000 Ugx</td>
                 </tr>
              
 
                 
                     <tr> 
-                      <td class="link"><label> remove</label></td>
+                      <td class="link"><label> <a href="{#product.url}">remove</a></label></td>
                       <td class="product">
-                        <div class="product-img"><a href="{#product.url}"></a></div>
-                        <div class="product-name"> Soda
-                          <a href="{#product.url}"></a>
+                        <div class="product-img"><a href="{#product.url}"><img src="img/soda.jpg"></a></div>
+                        <div class="product-name">
+                          <a href="{#product.url}">Soda</a>
                          
                             <br />
                         </div>
                       </td>
-                      <td class="price">
+                      <td class="qprice"> 22,000 Ugx
                         
                       </td>
-                      <td class="quantity">
+                      <td class="quantity"> 1 Crate
                         
                       </td>
-                      <td class="price"></td>
+                      <td class="tprice">22,000 Ugx</td>
                     </tr>
                  
      
@@ -124,7 +129,7 @@
       <tr class="totals">
         <td colspan="2"><input type="submit" name="submit" value="Update cart" /></td>
         <td class="quantity-span" colspan="2">Total</td>
-        <td class="price"></td>
+        <td class="price"> 168,000 Ugx</td>
       </tr> 
     </tbody>
   </table>

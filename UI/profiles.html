@@ -14,14 +14,18 @@
 </div>
 
 <div id= "search"> Search Store Inventory
-  <input type="text" placeholder="search"> &nbsp;&nbsp;<input type="submit" name="submit" value="Search"/>
+  <input id="yoloz" type="text" placeholder="search"> &nbsp;&nbsp;<input id="yolo" type="submit" name="submit" value="Search"/>
 </div>
 
 <div id="nav">
-    <a href="shopping cart index.html">Shopping Cart</a><br>
-    <a href="store sales.html">Sales</a><br>
-    <a href="dashboard.html">Store Administration</a><br>
-    <a href="inventory.html">Store Inventory</a> <br>
+    <nav>
+    <ul>
+    <li><a href="shopping cart index.html">Shopping Cart</a><br></li>
+    <li><a href="store sales.html">Sales</a><br></li>
+    <li><a href="dashboard.html">Store Administration</a><br></li>
+    <li><a href="inventory.html">Store Inventory</a> <br></li>
+    </ul>
+    </nav>
     </div>
     </div>
 
@@ -29,23 +33,69 @@
     <div id = "contentmain">
 <h1>Store Attendant Profiles</h1>
 
-  <table cellspacing="2" class="profiles">
+<table cellspacing="20" class="profiles">
     <thead>
       <tr class="headings">
-        <th class="serial">S/No.</td>
         <th class="Attendant">Store Attendant</td>
+
       </tr>
     </thead>
     <tbody>
       <tr> 
-        <td class="serial"><label> 01.</label></td>
-        <td class="Attendant"> 
+        <td class="Attendant" colspan="3" rowspan="6">
           <div class="Attendant-img"><a href="{#Attendant.url}"><img src ="img/avatar.jpg"></a></div>
-          <div class="Attendant-name"> Name: Dennis Lwanga <br> Age: 23<br> Education: Certificate <br> Employed since: 2017<br>
-            Total Sales Records Created: 30 <br> Total Products sold:332 <br> Total worth of Goods Sold: 11,440,000 Ugx </div>
-          
+          <div class="Attendant-name">
+            <a href="{#Attendant.url}"></a>
+           
+              <br/>
+          </div>
+        </td>
+        <td class="nam"> Name</td>
+
+        <td class="nam-input"> Dennis Lwanga </td>   
+        </td>
+      </tr>
+      <tr> 
+            <td class="age"> Age</td>
     
-      </tr> 
+            <td class="age-input"> 29</td>
+              
+            </td>
+          </tr>
+          
+          <tr> 
+              
+                <td class="educ"> Education Level</td>
+        
+                <td class="educ-input"> Certificate </td>
+              </tr>
+             
+              <tr> 
+                    
+                    <td class="sold"> Sales Records </td>
+            
+                    <td class="sold-input"> 32 </td>
+            
+                    </td>
+                  </tr>
+                
+                  <tr> 
+                    
+                      <td class="prod"> Products Sold </td>
+              
+                      <td class="prod-input"> 312 </td>
+              
+                      </td>
+                    </tr>
+                    <tr> 
+                    
+                        <td class="worth"> Worth Sold </td>
+                
+                        <td class="worth-input"> 11,440,000 Ugx </td>
+                
+                        </td>
+                      </tr>
+
     </tbody>
   </table>
 

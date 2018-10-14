@@ -14,7 +14,7 @@
 #search {
     text-align: center;
     font-size: 22px;
-    font-family: fantasy;
+    font-family: 'Papyrus' ,'fantasy';
 
 }
 #nav {
@@ -24,7 +24,7 @@
     height:auto;
     width:15%;
     float:right;
-    font-family: Fantasy;
+    font-family: 'Papyrus' ,'fantasy';
     font-size: 25px;
     font-weight: bold;
     margin-top: 190px;
@@ -34,7 +34,7 @@
     overflow: hidden;
     margin: 5px;
     padding: 3px;
-    font-family: fantasy;
+    font-family: 'Papyrus' ,'fantasy';
     font-size: 30px;
 
   }
